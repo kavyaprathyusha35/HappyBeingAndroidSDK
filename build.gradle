@@ -1,4 +1,13 @@
 apply plugin: 'com.android.library'
+repositories {
+    mavenCentral()
+    google()
+    jcenter()
+    maven { url "https://jitpack.io" }
+}
+
+group = 'com.github.jitpack'
+version = '1.0'
 
 android {
     compileSdkVersion 29
