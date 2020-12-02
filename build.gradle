@@ -1,9 +1,12 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.github.dcendents.android-maven'
+apply plugin: 'com.apply plugin: 'com.github.dcendents.android-maven'
+group ='com.github.kavyaprathyusha35'
+
 android {
     compileSdkVersion 29
 
     defaultConfig {
+        applicationId 'com.github.kavyaprathyusha35.HappyBeingAndroidSDK'
         minSdkVersion 21
         targetSdkVersion 29
         versionCode 1
